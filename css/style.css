@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 2000px;
+}
+
+.first-section {
+  height: 800px;
+  background-image: url(../images/navimg.jpeg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right;
+}
+
+.languages {
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  object-fit: cover;
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+}
+#first-header {
+  font-size: 5.5rem;
+  font-weight: 400;
+}
+#first-p {
+  color: #222f3f;
+  line-height: 36px;
+  font-size: 21px;
+  margin: 18px 0px 30px 0px;
+}
+.button {
+  border: none;
+  min-width: 205px;
+  height: 70px;
+  background: #333333;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 10px;
+}
+.button2 {
+  border: none;
+  min-width: 205px;
+  height: 60px;
+  background: transparent;
+  border-radius: 3px;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: blue;
+  margin-top: 10px;
+}
+#second-header {
+  font-size: 4.5rem;
+}
+
+.third-section {
+  align-items: center;
+}
+#monthly {
+  border-radius: 25px;
+}
+.btn-group-toggle .btn {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.btn-group-toggle .btn input[type="radio"] {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+.buttonBlue {
+  background-color: blue;
+  color: white;
+  border-radius: 25px;
+  border: none;
+  height: 33px;
+  width: 90px;
+  cursor: pointer;
+}
+.buttonWhite {
+  background-color: transparent;
+  color: #333333;
+  border: none;
+  width: 100px;
+  cursor: pointer;
+}
+.buttons {
+  margin: auto;
+  position: relative;
+  width: 230px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 9999px;
+  border: 1px solid rgb(217, 217, 217);
+}
